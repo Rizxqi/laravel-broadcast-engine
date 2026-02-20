@@ -1,4 +1,4 @@
-# Obsidian Radio Broadcast
+# Laravel Radio Broadcast
 
 Enterprise-grade Digital Radio Broadcast Orchestration Platform.
 

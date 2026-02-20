@@ -2,7 +2,7 @@
 
 ## Overview
 
-Obsidian Radio Broadcast uses a containerized micro-infrastructure
+Laravel Radio Broadcast uses a containerized micro-infrastructure
 approach to manage radio streaming operations.
 
 ## Components
