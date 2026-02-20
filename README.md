@@ -1,36 +1,66 @@
-# laravel-broadcast-engine
+# Obsidian Radio Broadcast
 
-Enterprise-grade radio broadcast orchestration platform built with:
+Enterprise-grade Digital Radio Broadcast Orchestration Platform.
 
-- Laravel (Backend Control Panel)
-- Docker (Containerized Infrastructure)
-- Liquidsoap (Audio Automation)
-- Icecast (Streaming Server)
+Obsidian Radio Broadcast is a centralized control system designed to manage,
+automate, and orchestrate digital radio streaming infrastructure using
+modern containerized architecture.
+
+---
 
 ## 🚀 Overview
 
-Obsidian Radio Broadcast is a centralized control system designed to manage,
-orchestrate, and automate digital radio streaming infrastructure.
+This system integrates:
 
-## 🏗 Architecture
+- Laravel (Control Panel Backend)
+- Docker (Containerized Infrastructure)
+- Liquidsoap (Audio Automation Engine)
+- Icecast (Streaming Media Server)
+- Nginx (Reverse Proxy)
 
-See docs/architecture.md
+The platform allows administrators to control playlist routing,
+trigger configuration reloads, and monitor broadcast status in real-time.
 
-## 📸 Screenshots
+---
 
-![Dashboard](screenshots/dashboard.png)
+## 🏗 System Architecture
 
-## ⚙ Tech Stack
+User → Laravel Control Panel → Liquidsoap Engine → Icecast Server → Listener
 
-- PHP (Laravel)
-- Docker
-- Icecast
-- Liquidsoap
-- Nginx
+See `/docs/architecture.md` for detailed explanation.
+
+---
 
 ## 🎯 Key Features
 
 - Playlist orchestration
-- Auto-reload streaming configuration
-- Multi-container Docker deployment
+- Automated Liquidsoap configuration generation
+- Streaming reload trigger system
+- Dockerized infrastructure
 - Broadcast monitoring
+- Modular backend architecture
+
+---
+
+## 🧱 Tech Stack
+
+- PHP 8+
+- Laravel Framework
+- Docker
+- Icecast
+- Liquidsoap
+- Nginx
+- MySQL
+
+---
+
+## 📸 Screenshots
+
+See `/screenshots` directory.
+
+---
+
+## 🔒 Note
+
+This repository is a public portfolio preview.
+Full source code and infrastructure configurations are private.

@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    image: php:8.2-fpm
+    container_name: radio_app
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "9000:9000"
+
+  icecast:
+    image: moul/icecast
+    container_name: radio_icecast
+    ports:
+      - "8000:8000"
+
+  liquidsoap:
+    image: savonet/liquidsoap
+    container_name: radio_liquidsoap
+    volumes:
+      - ./radio.liq:/etc/liquidsoap/radio.liq
