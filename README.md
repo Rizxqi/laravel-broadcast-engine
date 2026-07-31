@@ -1,3 +1,6 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="screenshot/banner.png" />
+</div>
 # 🔊 Public Audio System — Music & Audio Streaming Control System
 
 > A web-based public audio control system that lets operators manage music playlists and stream audio to multiple zones/devices over HTTP streaming. Public Audio System integrates Laravel (backend + dashboard), Liquidsoap (audio mixer/engine), and Icecast (streaming server), all orchestrated via Docker.
